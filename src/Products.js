@@ -2,9 +2,10 @@ import { Container, Row, Col, List } from "reactstrap";
 import React, { Component } from "react";
 import ProductList from "./ProductList";
 import sList from "./sList";
+import "./App.css";
+//import ReactDOM from "react-dom/client";
 
 export default class Products extends Component {
-  
   render() {
     return (
       <div>
@@ -12,9 +13,20 @@ export default class Products extends Component {
         <Container>
           <Col>
             {ProductList.map((product) => (
-              <button key={product.id} onClick={sList.push(product.id, product.image, product.title, product.amount)}>
-                
-                <p>{product.image}</p>
+              <button
+                key={product.id}
+                onClick={() => {
+                  sList.push({
+                    id: product.id,
+                    image: product.image,
+                    title: product.title,
+                    amount: product.amount,
+                  });
+                }}
+              >
+                {console.log(sList)}
+
+                <img src={product.image} />
                 <p>{product.title}</p>
               </button>
             ))}
@@ -24,3 +36,5 @@ export default class Products extends Component {
     );
   }
 }
+//const root = ReactDOM.createRoot(document.getElementById("root"));
+//root.render(<sList />);

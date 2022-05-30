@@ -3,15 +3,40 @@
 }
 
 button {
-width: 30%;
-height: 30%;
-box-sizing: content-box;
-padding: 0%;
-background: fixed;
-align-items: center;
-
+  margin: 2mm;
+  width: 30mm;
+  height: 30mm;
+  box-sizing: content-box;
+  padding: 0mm;
+  background: fixed;
+  align-items: center;
 }
 img {
-width: 50%;
-height: 50%;
+  width: 20mm;
+  height: 20mm;
+}
+
+.col {
+  margin: 0mm;
+  margin-top: 0mm;
+}
+
+.h3,
+h3 {
+  margin-top: 10mm;
+}
+
+.row {
+  margin: 0;
+}
+
+button.a {
+  width: 30mm;
+  height: 10mm;
+  position: absolute;
+  vertical-align: bottom;
+}
+
+footer {
+  vertical-align: bottom;
 }

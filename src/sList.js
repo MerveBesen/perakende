@@ -1,4 +1,3 @@
-const sList= []
-
+const sList = [];
 
 export default sList;
