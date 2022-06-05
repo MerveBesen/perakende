@@ -1,8 +1,25 @@
 import { Container, Row, Col, List } from "reactstrap";
-import React, { Component } from "react";
+import React, { Component, useEffect, useState } from "react";
 import ProductList from "./ProductList";
 import sList from "./sList";
 import "./App.css";
+import ReactDOM from "react-dom/client";
+
+function ListAddItem() {
+  const [product, setProduct] = useState();
+  useEffect(() => {
+    setProduct(() =>
+      sList.push({
+        id: product.id,
+        image: product.image,
+        title: product.title,
+        amount: product.amount,
+      })
+    );
+  });
+}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<ListAddItem />);
 
 export default class Products extends Component {
   render() {
@@ -15,12 +32,7 @@ export default class Products extends Component {
               <button
                 key={product.id}
                 onClick={() => {
-                  sList.push({
-                    id: product.id,
-                    image: product.image,
-                    title: product.title,
-                    amount: product.amount,
-                  });
+                  ListAddItem(product);
                 }}
               >
                 {console.log(sList)}
