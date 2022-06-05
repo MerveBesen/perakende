@@ -3,7 +3,7 @@
 }
 
 button {
-  margin: 2mm;
+
   width: 30mm;
   height: 30mm;
   box-sizing: content-box;
@@ -33,8 +33,8 @@ h3 {
 button.a {
   width: 30mm;
   height: 10mm;
-  position: absolute;
-  vertical-align: bottom;
+
+  margin-left: 45%;
 }
 
 footer {

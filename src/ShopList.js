@@ -19,7 +19,6 @@ export default class ShopList extends Component {
                   <ListGroupItem key={product.id}>
                     <Row>
                       <Col>{product.title}</Col>
-
                       <Col>{product.amount}</Col>
                     </Row>
                   </ListGroupItem>

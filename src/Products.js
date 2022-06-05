@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import ProductList from "./ProductList";
 import sList from "./sList";
 import "./App.css";
-//import ReactDOM from "react-dom/client";
 
 export default class Products extends Component {
   render() {
@@ -36,5 +35,3 @@ export default class Products extends Component {
     );
   }
 }
-//const root = ReactDOM.createRoot(document.getElementById("root"));
-//root.render(<sList />);
