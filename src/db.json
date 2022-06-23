@@ -1,0 +1,19 @@
+{
+  "products": [
+    { "id": 1, "image": "", "name": "Çay", "price": "4.50" },
+    { "id": 2, "image": "", "name": "Peynir", "price": "1.99" },
+    { "id": 3, "image": "", "name": "Reçel", "price": "2.49" },
+    { "id": 4, "image": "", "name": "Simit", "price": "3.00" },
+    { "id": 5, "image": "", "name": "Su", "price": "2.99" },
+    { "id": 6, "image": "", "name": "Zeytin", "price": "2.25" },
+    { "id": 7, "image": "", "name": "Yumurta", "price": "2.75" },
+    { "id": 8, "image": "", "name": "Ekmek", "price": "4.00" },
+    { "id": 9, "image": "", "name": "Poğaça", "price": "4.50" },
+    { "id": 10, "image": "", "name": "Bal", "price": "2.49" },
+    { "id": 11, "image": "", "name": "Kaşar", "price": "2.25" },
+    { "id": 12, "image": "", "name": "Pekmez", "price": "2.50" },
+    { "id": 13, "image": "", "name": "Salam", "price": "3.5 " },
+    { "id": 14, "image": "", "name": "Sos", "price": "3.25" },
+    { "id": 15, "image": "", "name": "Süt", "price": "4.75" }
+  ]
+}

@@ -2,7 +2,7 @@
   margin: auto;
 }
 
-button {
+button.prod{
 
   width: 30mm;
   height: 30mm;
@@ -10,6 +10,7 @@ button {
   padding: 0mm;
   background: fixed;
   align-items: center;
+  margin: 1mm;
 }
 img {
   width: 20mm;
@@ -27,16 +28,34 @@ h3 {
 }
 
 .row {
-  margin: 0;
+  margin: 2mm;
+
 }
 
-button.a {
+/*button.a {
+  margin-top: 10mm;
   width: 30mm;
   height: 10mm;
-
-  margin-left: 45%;
+  margin-left: 85%;
 }
-
+*/
 footer {
   vertical-align: bottom;
 }
+
+.container{
+
+  padding: 0mm;
+}
+Button.stok{
+  width: 17mm;
+  height: 17mm;
+  margin: 0.5mm;
+}
+
+button.bar{
+background-color: white;
+color: black;
+border-color: white;
+}
+
